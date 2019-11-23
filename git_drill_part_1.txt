@@ -1,0 +1,105 @@
+mkdir git_sample_project
+  541  cd git_sample_project/
+  542  git  init
+  543  touch a.txt
+  544  touch b.txt
+  545  touch c.txt
+  546  git status
+  547  git stages
+  548  git commit -m " Add a.txt and b.txt"
+  549  git status
+  550  git commit
+  551  git llog
+  552  git log
+  553  nano a.txt 
+  554  nano b.txt
+  555  nano c.txt
+  556  git commit -m "Add a.txt and b.txt"
+  557  git status
+  558  git commit
+  559  git add .
+  560  git commit
+  561  git status
+  562  git log
+  563  git add c.txt
+  564  git commit
+  565  cd ..
+  566  mkdir git_simple_project2
+  567  mkdir git_sample_project2
+  568  cd git_sample_project2
+  569  cd ..
+  570  cd git_sample_project
+  571  git remote add origin https://github.com/kapilpatidar94/git_sample_project.git
+  572  git push -origin master
+  573  git push -u origin master
+  574  cd ..
+  575  cd git_sample_project
+  576  git status
+  577  git log
+  578  git clone https://github.com/kapilpatidar94/git_sample_project Desktop/git_sample_project2
+  579  ls
+  580  cd ..
+  581  cd git_sample_project2
+  582  ls
+  583  ls -al
+  584  touch d.txt
+  585  nano d.txt
+  586  git commit
+  587  git status
+  588  cd ..
+  589  cd git_sample_project
+  590  ls
+  591  ls -al
+  592  cd ..
+  593  cd git_sample_project2
+  594  git clone https://github.com/kapilpatidar94/git_sample_project
+  595  git status
+  596  cd ..
+  597  git clone https://github.com/kapilpatidar94/git_sample_project git_sample_project2
+  598  cd git_sample_project2
+  599  ls
+  600  git status
+  601  git log
+  602  ls -sl
+  603  ls -al
+  604  cd git_sample_project/
+  605  git status
+  606  git log
+  607  cd ..
+  608  git add d.txt
+  609  cd git_sample_project/
+  610  git add d.txt
+  611  touch d.txt
+  612  git add d.txt
+  613  commit
+  614  git commit
+  615  cd ..
+  616  git remote add origin https://github.com/kapilpatidar94/git_sample_project
+  617  cd  git_sample_project/
+  618  git remote add origin https://github.com/kapilpatidar94/git_sample_project
+  619  git push -u origin master
+  620  git pull origin
+  621  cd ..
+  622  git pull origin
+  623  cd ..
+  624  cd git_sample_project
+  625  mkdir git_sample_project2
+  626  cd git_sample_project2/
+  627  git clone https://github.com/kapilpatidar94/git_sample_project
+  628  touch e.txt
+  629  git add .
+  630  git commit 
+  631  git push -u origin master
+  632  git remote add origin https://github.com/kapilpatidar94/git_sample_project.git
+  633  git push -u origin master
+  634  git config
+  635  git status
+  636  git log
+  637  cat git/config
+  638  cd ..
+  639  cat git/config
+  640  cd git_sample_project2/
+  641  git log
+  642  git status
+  643  git push -u origin master
+  644  git status
